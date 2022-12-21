@@ -1,0 +1,26 @@
+name: Sorting
+version: '${version}'
+main: com.sangchoo.sorting.Sorting
+api-version: 1.19
+commands:
+  stopsort:
+    description: Stops the sorting
+    usage: /stopsort
+    permission: sorting.stopsort
+    permission-message: You cannot have enough brain cells to stop this
+  shuffle:
+    description: Shuffles the data
+    usage: /shuffle
+    permission: sorting.shuffle
+    permission-message: You cannot have enough brain cells to shuffle this
+  setdatasize:
+    description: Sets the size of data
+    usage: /setdatasize <size>
+    permission: sorting.setdatasize
+    permission-message: You cannot have enough brain cells to set this
+  sort:
+    description: Starts the sorting simulation
+    usage: /sort <name of sort> <tick speed>
+    permission: sorting.sort
+    permission-message: You cannot have enough brain cells to sort this
+
